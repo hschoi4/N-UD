@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def norm (c):
-    return math.sqrt(c[2]**2+c[3]**2+c[4]**2)
+    return math.sqrt(c[2]**2+c[3]**2)
 
 def cosine (c1, c2):
-    return (c1[2] * c2[2]+c1[3] * c2[3]+c1[4] * c2[4])/(c1[1] * c2[1])
+    return (c1[2] * c2[2]+c1[3] * c2[3])/(c1[1] * c2[1])
 
 
 #arguments : file with counts of patterns, export (boolean), name of outfile
@@ -19,7 +19,7 @@ def create_heatmap(fic_csv, export, outfile_name):
     
         # modify the [data] matrix
         for c in data:
-            for i in range(2,5):    # make column 2 to 4 as integer instead of string
+            for i in range(2,4):    # make column 2 to 4 as integer instead of string
                 c[i] = int(c[i])  
             c[1] = norm(c)        # store the norm of the vector in column 1 (instead of the number of sentences)
     
