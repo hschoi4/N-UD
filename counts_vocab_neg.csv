@@ -1,0 +1,7 @@
+Corpus	# sentences	ne_n	pas	jamais	point	plus	guère	rien	aucun	personne	nul	non
+UD_French-FQB	2289	27	20	2	0	3	0	0	0	0	0	2
+UD_French-GSD	16341	1633	1036	89	2	94	7	76	122	18	3	132
+UD_French-ParTUT	1020	190	125	4	0	7	0	1	28	1	0	17
+UD_French-PUD	1000	103	84	4	0	8	1	5	10	0	0	4
+UD_French-Sequoia	3099	403	259	12	0	14	1	10	41	2	0	45
+UD_French-Spoken	2806	218	372	27	0	19	0	21	17	5	0	104
